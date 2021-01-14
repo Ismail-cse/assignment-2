@@ -130,7 +130,7 @@ input[type=submit]{
  =============================*/
 .footer{
     background: #A4BC46;
-    font-size: 25px;
+    font-size: 20px;
 }
 .video-payment-section span,
 .footer span{
@@ -162,5 +162,23 @@ Responsive section
     .sell-items{
         display: flex;
         flex-direction: column-reverse;
+    }
+ }
+ @media (max-width:370px){
+    .logo-img{
+        width: 150px;
+    }
+    .banner-title h2,
+    .woman-section h2,
+    .man-section h2,
+    .our-team-mamber h2,
+    .video-payment-section h3 {
+         font-size: 30px;
+    }
+    .card-price {
+        flex-direction: column;
+    }
+    .footer{
+        font-size: 15px;
     }
  }
